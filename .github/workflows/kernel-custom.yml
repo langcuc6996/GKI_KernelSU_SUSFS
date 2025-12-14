@@ -54,3 +54,4 @@ jobs:
       variant: ${{ matrix.variant }}
       ksu_variant: ${{ inputs.ksu_variant }}
       ksu_commit: ${{ inputs.ksu_commit }}
+      version: ${{ inputs.version }}
