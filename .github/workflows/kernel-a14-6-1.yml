@@ -93,3 +93,4 @@ jobs:
       os_patch_level: ${{ matrix.os_patch_level }}
       ksu_variant: ${{ inputs.ksu_variant }}
       ksu_commit: ${{ inputs.ksu_commit }}
+      version: ${{ inputs.version }}
