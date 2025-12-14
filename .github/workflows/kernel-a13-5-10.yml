@@ -13,6 +13,9 @@ on:
       ksu_commit:
         required: false
         type: string
+      version:
+        required: false
+        type: string        
 
 jobs:
   build-kernels-a13-5-10:
